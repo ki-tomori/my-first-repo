@@ -9,34 +9,18 @@
 ![デモのスクリーンショットやGIF](docs/images/demo.gif)
 
 ## コンペ名
+Titanic-Machine Learning from Disaster
+
+## タスク
+Binary Classification(二値分類)
+
+## 評価指標
+
+## 最終順位
+
+## 解釈
 
 
-##　タスク
-
-- 既存の〇〇には△△という課題があった
-- □□を実現するツールが存在しなかった
-- ××の技術を実践的に学びたかった
-
-## ✨ 問題設定
-
-- **機能A**: 説明
-- **機能B**: 説明
-- **機能C**: 説明
-
-## 🛠 評価指標の意味
-
-| カテゴリ | 技術 |
-|:--|:--|
-| フロントエンド | Next.js 15 / React 19 / TypeScript |
-| バックエンド | Node.js / Hono |
-| データベース | PostgreSQL / Prisma |
-| インフラ | Vercel / Docker |
-| CI/CD | GitHub Actions |
-| テスト | Vitest / Playwright |
-
-## 🏗 アプローチ概要
-
-```
 [Client] → [Next.js App Router] → [API Routes] → [Prisma] → [PostgreSQL]
                                         ↓
                                   [External APIs]
