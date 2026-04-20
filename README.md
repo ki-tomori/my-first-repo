@@ -1,4 +1,4 @@
-# 🚀 プロジェクト名
+# 概要
 
 [![CI](https://github.com/yourname/project/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/project/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,12 +8,10 @@
 
 ![デモのスクリーンショットやGIF](docs/images/demo.gif)
 
-## 📖 概要
+## コンペ名
 
-このプロジェクトは〇〇のために開発しました。
-〇〇という課題を、△△というアプローチで解決しています。
 
-### なぜ作ったのか（モチベーション）
+##　タスク
 
 - 既存の〇〇には△△という課題があった
 - □□を実現するツールが存在しなかった
