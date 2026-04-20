@@ -19,13 +19,13 @@
 - □□を実現するツールが存在しなかった
 - ××の技術を実践的に学びたかった
 
-## ✨ 主な機能
+## ✨ 問題設定
 
 - **機能A**: 説明
 - **機能B**: 説明
 - **機能C**: 説明
 
-## 🛠 技術スタック
+## 🛠 評価指標の意味
 
 | カテゴリ | 技術 |
 |:--|:--|
@@ -36,7 +36,7 @@
 | CI/CD | GitHub Actions |
 | テスト | Vitest / Playwright |
 
-## 🏗 アーキテクチャ
+## 🏗 アプローチ概要
 
 ```
 [Client] → [Next.js App Router] → [API Routes] → [Prisma] → [PostgreSQL]
@@ -46,54 +46,9 @@
 
 詳細は [docs/architecture.md](docs/architecture.md) を参照してください。
 
-## 🚀 はじめ方
+## 🚀　CV設計と理由
 
-### 前提条件
-
-- Node.js >= 20.x
-- Docker & Docker Compose
-- pnpm >= 9.x
-
-### セットアップ
-
-```bash
-# リポジトリをクローン
-git clone https://github.com/yourname/project.git
-cd project
-
-# 環境変数を設定
-cp .env.example .env
-# .env を編集して必要な値を設定
-
-# 依存関係をインストール
-pnpm install
-
-# データベースを起動
-docker compose up -d
-
-# マイグレーションを実行
-pnpm db:migrate
-
-# 開発サーバーを起動
-pnpm dev
-```
-
-http://localhost:3000 でアプリケーションにアクセスできます。
-
-### テストの実行
-
-```bash
-# ユニットテスト
-pnpm test
-
-# E2Eテスト
-pnpm test:e2e
-
-# カバレッジレポート
-pnpm test:coverage
-```
-
-## 📝 デモ
+## 📝 工夫点
 
 🔗 **ライブデモ**: [https://project.vercel.app](https://project.vercel.app)
 
@@ -102,6 +57,6 @@ pnpm test:coverage
 | ダッシュボード | ![dashboard](docs/images/dashboard.png) |
 | 検索機能 | ![search](docs/images/search.png) |
 
-## 📄 ライセンス
+## 📄 最終順位
 
 このプロジェクトは [MIT License](LICENSE) の下で公開されています。
